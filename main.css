@@ -1,0 +1,113 @@
+body{
+    
+    background-image: linear-gradient(rgba(155, 9, 148, 0.562) ,rgb(255, 255, 255));
+   font-family: 'Courier New', Courier, monospace;
+} 
+    
+
+
+
+   .footer ul li { 
+
+    list-style: none; 
+    
+    } 
+    
+     
+    
+    footer a { 
+    
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    } 
+    
+     
+    
+    footer ul li a{ 
+    
+    color: black; 
+    
+    text-decoration: none; 
+    
+    } 
+    
+     
+    
+    nav ul { 
+    
+    list-style: none; 
+    
+    } 
+    
+    .footerControlador { 
+    
+    display: flex; 
+    
+    justify-content: space-between; 
+    
+    } 
+    
+     
+    
+    .listaFooter{ 
+    
+    display: flex; 
+    
+    justify-content: space-between; 
+    
+    flex-direction: row; 
+    
+    } 
+    
+    .listaItem{ 
+    
+    display: flex; 
+    
+    padding-inline: 10px; 
+    
+    padding-top: 2px 
+    
+    } 
+    
+    .listaItem a{ 
+    
+    color: blue; 
+    
+    } 
+   
+
+        .contenedorimagenpadre{
+            display: grid;
+            grid-template-columns: repeat(4, 280px);
+            padding: 20px;
+
+            
+        }
+
+        .imagentexto{
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border: solid 1px black;
+            
+
+        }
+        
+        /* media responsive --------------------------*/
+
+        @media (max-width:576px) 
+        {.contenedorImagenPadre {
+            grid-template-columns: repeat(1, 1fr);
+          }
+        }                                                                                                                                                                               @media (min-width:577px) and (max-width:992px) 
+        {.contenedorPadreImagen {
+            grid-template-columns: repeat(2, 320px);
+            padding-left:60px}}
+
+
+            
+            @media (min-width: 993px)  {
+          .contenedorPadreImagen {
+            grid-template-columns: repeat(4, 290px);
+            padding-left: 80px;
+          }}
